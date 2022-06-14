@@ -6,4 +6,8 @@ def solve_quadratic_eqn(a: int, b: int, c: int):
     
     return first_sol, second_sol
 
-print(solve_quadratic_eqn(1, -1, -6))
+a = int(input('Enter a: '))
+b = int(input('Enter b: '))
+c = int(input('Enter c: '))
+
+print(solve_quadratic_eqn(a, b, c))
